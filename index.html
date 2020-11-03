@@ -10,12 +10,42 @@
         <link rel="icon" href="assets/img/favicon.ico" />
         <title>CCO Advent Test Harness</title>
         <style>
+            body {
+                margin:0;
+                padding:0;
+                background-color: #CCCCCC;
+            }
+            .main-layout {
+                display:flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            .body-container {
+                min-width: 1000px;
+                background-color: #FFFFFF;
+            }
+            .margin-fill {
+                flex-grow: 1;
+            }
+
+            .write-up {
+                text-align: center;
+                letter-spacing: 4px;
+                white-space: pre-wrap;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                line-height: 26px;
+            }
+            .write-up-bold {
+                font-weight:bold;
+            }
+
             .calendar-row {
                 /* background-color: #f1ded1; */
                 display: flex;
                 flex-direction: row;
                 flex-wrap: nowrap;
-                justify-content: flex-start;
+                justify-content: center;
                 margin:1px;
             }
             .calendar-day {
@@ -43,45 +73,78 @@
         </style>
     </head>
     <body>
-        <div class="calendar-row">
-            <div class="calendar-day calendar-word">HOPE</div>
-            <div id="calendar-day-29" class="calendar-day">29</div>
-            <div id="calendar-day-30" class="calendar-day">30</div>
-            <div id="calendar-day-1" class="calendar-day">1</div>
-            <div id="calendar-day-2" class="calendar-day">2</div>
-            <div id="calendar-day-3" class="calendar-day">3</div>
-            <div id="calendar-day-4" class="calendar-day">4</div>
-            <div id="calendar-day-5" class="calendar-day">5</div>
-        </div>
-        <div class="calendar-row">
-            <div class="calendar-day calendar-word">PEACE</div>
-            <div id="calendar-day-6" class="calendar-day">6</div>
-            <div id="calendar-day-7" class="calendar-day">7</div>
-            <div id="calendar-day-8" class="calendar-day">8</div>
-            <div id="calendar-day-9" class="calendar-day">9</div>
-            <div id="calendar-day-10" class="calendar-day">10</div>
-            <div id="calendar-day-11" class="calendar-day">11</div>
-            <div id="calendar-day-12" class="calendar-day">12</div>
-        </div>
-        <div class="calendar-row">
-            <div class="calendar-day calendar-word">JOY</div>
-            <div id="calendar-day-13" class="calendar-day">13</div>
-            <div id="calendar-day-14" class="calendar-day">14</div>
-            <div id="calendar-day-15" class="calendar-day">15</div>
-            <div id="calendar-day-16" class="calendar-day">16</div>
-            <div id="calendar-day-17" class="calendar-day">17</div>
-            <div id="calendar-day-18" class="calendar-day">18</div>
-            <div id="calendar-day-19" class="calendar-day">19</div>
-        </div>
-        <div class="calendar-row">
-            <div class="calendar-day calendar-word">LOVE</div>
-            <div id="calendar-day-20" class="calendar-day">20</div>
-            <div id="calendar-day-21" class="calendar-day">21</div>
-            <div id="calendar-day-22" class="calendar-day">22</div>
-            <div class="calendar-day"></div>
-            <div class="calendar-day"></div>
-            <div class="calendar-day"></div>
-            <div class="calendar-day"></div>
+        <div class="main-layout">
+            <div class="margin-fill"></div>
+            <div class="body-container">
+
+                <!-- Write up: -->
+                <div class="write-up">
+                    The season of Advent is a time to anticipate
+                    and celebrate the birth of Jesus Christ - God with us.
+
+                    This year our focus is the Kingdom of God. There was a time when all of creation
+                    groaned for the savior. The fulfillment of every promise, the incarnation of Creator God,
+                    the kingdom of heaven upon the earth. Every heart longed for His arrival - His Advent.
+                    Now more than ever, we yearn for His return, for Emmanuel to appear again,
+                    establish His Kingdom, and make all things new.
+
+                    The life of Jesus, his death, and resurrection launched a kingdom characterized by
+                    <span class="write-up-bold">HOPE, PEACE, JOY, LOVE,</span> and each week we want to celebrate God's story
+                    intersecting with those in our Church.
+
+                    We invite you to join us here each day during the Advent season to reflect
+                    on what Jesus has fulfilled and long for His coming again.
+
+                    We are thankful for the privilege of reading Scripture with you
+                    as we look forward to the second coming of Christ.
+
+                    But until then, may we pray over and over again:
+                    <span class="write-up-bold">KINGDOM, COME.</span>
+                </div>
+
+                <!-- Calendar: -->
+                <div class="calendar-row">
+                    <div class="calendar-day calendar-word">HOPE</div>
+                    <div id="calendar-day-29" class="calendar-day">29</div>
+                    <div id="calendar-day-30" class="calendar-day">30</div>
+                    <div id="calendar-day-1" class="calendar-day">1</div>
+                    <div id="calendar-day-2" class="calendar-day">2</div>
+                    <div id="calendar-day-3" class="calendar-day">3</div>
+                    <div id="calendar-day-4" class="calendar-day">4</div>
+                    <div id="calendar-day-5" class="calendar-day">5</div>
+                </div>
+                <div class="calendar-row">
+                    <div class="calendar-day calendar-word">PEACE</div>
+                    <div id="calendar-day-6" class="calendar-day">6</div>
+                    <div id="calendar-day-7" class="calendar-day">7</div>
+                    <div id="calendar-day-8" class="calendar-day">8</div>
+                    <div id="calendar-day-9" class="calendar-day">9</div>
+                    <div id="calendar-day-10" class="calendar-day">10</div>
+                    <div id="calendar-day-11" class="calendar-day">11</div>
+                    <div id="calendar-day-12" class="calendar-day">12</div>
+                </div>
+                <div class="calendar-row">
+                    <div class="calendar-day calendar-word">JOY</div>
+                    <div id="calendar-day-13" class="calendar-day">13</div>
+                    <div id="calendar-day-14" class="calendar-day">14</div>
+                    <div id="calendar-day-15" class="calendar-day">15</div>
+                    <div id="calendar-day-16" class="calendar-day">16</div>
+                    <div id="calendar-day-17" class="calendar-day">17</div>
+                    <div id="calendar-day-18" class="calendar-day">18</div>
+                    <div id="calendar-day-19" class="calendar-day">19</div>
+                </div>
+                <div class="calendar-row">
+                    <div class="calendar-day calendar-word">LOVE</div>
+                    <div id="calendar-day-20" class="calendar-day">20</div>
+                    <div id="calendar-day-21" class="calendar-day">21</div>
+                    <div id="calendar-day-22" class="calendar-day">22</div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                    <div class="calendar-day"></div>
+                </div>
+            </div>
+            <div class="margin-fill"></div>
         </div>
         <script>
             var colors = ['f1ded1','f0dbc9','eed8c2','edd0b3','eccdab','e9c79c','e7c18e','e5bd86','e4ba80','e2b473','e0ad65','dfab5e','dda858'],
