@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="icon" href="assets/img/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/nao6xmx.css">
+        <title>CCO Advent Test Harness</title>
+        <style>
+       
+
+
+       html, body, p, div, h1, h2, h3, h4, span {
+                font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+                color: #4a3b47;
+                white-space: normal;
+            }
+            h1 { font-size: 24px; letter-spacing: 4px; }
+            h2 { font-size: 20px; letter-spacing: 4px; }
+            h3 { font-size: 16px; letter-spacing: 4px; }
+            h4 { font-size: 12px; letter-spacing: 4px; }
+            body {
+                margin:0;
+                padding:0;
+                background-color: #CCCCCC;
+            }
+            .rotate {
+                transform: rotate(-90deg);
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                filter: progid:DXImageTransform.Microsoft.BasicIage(rotation=3);
+            }
+            .main-layout {
+                display:flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            .body-container {
+                min-width: 1000px;
+                background-color: #FFFFFF;
+                border-left: solid 1px #4A3B47;
+                border-right: solid 1px #4A3B47;
+                border-bottom: none;
+                padding:0;
+                margin:0;
+            }
+            .margin-fill {
+                flex-grow: 1;
+            }
+
+            .write-up {
+                margin: 50px 0;
+                text-align: center;
+                letter-spacing: 4px;
+                white-space: pre-wrap;
+                font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                line-height: 26px;
+            }
+            .write-up-bold {
+                font-weight: 700;
+            }
+
+            .calendar-row {
+                /* background-color: #f1ded1; */
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: center;
+                margin:1px;
+            }
+            .calendar-day {
+                background-color: #F7DFD1;
+                color: #000000;
+                width: 100px;
+                height: 100px;
+                font-size: 64px;
+                font-weight:bold;
+                text-align:center;
+                line-height: 100px;
+                margin-left: 1px;
+                font-family: meno-banner-condensed,'meno-banner-condensed', serif;
+            }
+            .calendar-day a {
+                color:black;
+            }
+            .calendar-word {
+                background-color: #000000;
+                color: #F7DFD1;
+                font-size: 14px;
+                font-weight: bold;
+                font-family: proxima-nova, 'proxima-nova', Arial, Helvetica, sans-serif;
+                letter-spacing: 4px;
+            }
+            .calendar-today, .calendar-today a {
+                background-color: #4A3B47; 
+                color: #F7DFD1;
+            }
+
+.content-area {
+    background-color: none;
+/* 	background-color: #F7DFD1; */
+}
+.site-header-menu {
+	background-color: #000000;
+}
+
+.site-title a, .site-title a:hover, .site-title a:focus, .site-description, 
+.main-navigation a, 
+.menu-toggle {
+	color:#F7DFD1 !important;
+}
+
+/* Post navigation: */
+.cco-post-navigation {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cco-post-navigation ul {
+    margin: 50px 0;
+    list-style-type: none;
+    text-align: right;
+}
+.cco-post-navigation li {
+    background-color: none;
+}
+.cco-post-navigation li a {
+    color:#211a20;
+    text-decoration: none;
+    line-height: 250%;
+    letter-spacing: 4px; 
+}
+        </style>
+    </head>
+    <body>
+        <div class="main-layout">
+            <div class="margin-fill"></div>
+            <div class="body-container">
+
+                <!-- Title Banner: -->
+                <img src="images/advent-title.png" width="1000px;" />
+
+                <!-- Navigation -->
+    <div class="cco-post-navigation">
+
+<!-- Post Date -->
+<div style="padding:50px 0;">
+    <div style="
+        font-family: meno-banner-condensed,'meno-banner-condensed', serif; 
+        color: #f2d7c7;
+        font-size: 100px;
+        line-height: 50px !important;
+        position: absolute !important;
+        padding: 10px;
+    ">
+        nov<br/>
+        &nbsp;&nbsp;em<br/>
+        &nbsp;ber<br/>
+    </div>
+    <div style="
+        font-family: meno-banner-condensed,'meno-banner-condensed', serif;
+        font-size: 160px;
+        padding-left:10px;
+        text-align: center;
+        position:absolute !important;
+    ">
+        30
+    </div>
+</div>
+
+        <ul>
+             <li><a href="#daily_reflection">DAILY REFLECTION</a></li>
+             <li><a href="#for_kids">FOR KIDS</a></li>
+             <li><a href="#family_activity">FAMILY ACTIVITY</a></li>
+        </ul>
+    </div>
+    <br/>
+    <br/>
+    <!-- Daily Reflection -->
+    <div>
+    <h1><a id="daily_reflection"></a>DAILY REFLECTION</h1>
+    <div style="
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #f2d7c7; 
+        color: #df9c40; 
+        padding:0;
+        padding-left:20%;
+        padding-right:5%;
+        margin:0;
+    ">
+        <div style="
+                font-family: meno-banner-condensed,'meno-banner-condensed', serif;
+                font-size: 48px;
+                line-height:0;
+                white-space: nowrap !important;
+                color: #df9c40;
+                margin:0;
+                padding:0;
+            "
+            class="rotate"
+        >
+            luke 2:1-7
+        </div>
+        <p style="background-color: #f2d7c7; color: #df9c40; line-height: 200%; white-space: normal !important;">
+            In those days a decree went out from Caesar Augustus that all the world should be registered. This was the first registration when Quirinius was governor of Syria. And all
+            went to be registered, each to his own town. And Joseph
+            also went up from Galilee, from the town of Nazareth, to
+            Judea, to the city of David, which is called Bethlehem,
+            because he was of the house and lineage of David, to be
+            registered with Mary, his betrothed, who was with child. And
+            while they were there, the time came for her to give birth.
+            And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn.
+        </p>
+            
+        </div>
+        <div style=" padding: 50px;">
+            <h2>IN HISTORY</h2>
+            It happened. The story of Jesus Christ being born wasn't a fairy tal or a
+            myth or a legend. Luke makes sure his readers know that the birth of Jesus
+            took place in our time, in our world. Augustus was Caeser, Quirinius was
+            governor, and Jesus was born into a small town that can still be visited
+            today. In fact, many churches have been built on top of the places where
+            it is believed Jesus may have been born and travelled. This was done
+            because in times of war, churches typically were protected and they could
+            be used to guard sacred sites. Thousands now visit these sites as a way
+            to experience the places Jesus walked. Luke reminds us through these
+            historical details that God came into our story to redeem it. he came to
+            set himself up as the true King. He came to bear all of our sin so that now
+            and forever we could be in the presence of God and the history of Jesus
+            becomes the history of us. How is God currently working in your story?
+        
+        </div>
+    </div>
+
+    <!-- For Kids -->
+    <div>
+    <h1><a id="for_kids"></a>FOR KIDS</h1>
+    <h2>from your friends in Kid's Klub</h2>
+    <div>
+                            <span>what is hope?</span>
+    VIDEO PLACEHOLDER</div>
+    </div>
+
+    <!-- Family Activity -->
+    <div style="background-color: #211a20; color: #FFFFFF; padding: 50px;">
+        <h1 style="background-color: #211a20; color: #FFFFFF;"><a id="family_activity"></a>
+            FAMILY ACTIVITY
+        </h1>
+        <h4 style="background-color: #211a20; color: #FFFFFF;">
+            building an Advent wreath
+        </h4>
+        <p style="background-color: #211a20; color: #FFFFFF; font-weight:normal;">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+    </div>
+    </body>
+</html>
