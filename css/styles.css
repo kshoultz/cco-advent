@@ -71,10 +71,13 @@ body {
 .content-section-style-02 p { font-style: italic !important; font-weight:normal; color:#FFFFFF !important; }
 
 .write-up {
-    letter-spacing: 4px;
-    font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
-    font-size: 14px; /* font-size: 25pt; */
-    line-height: 26px; /* line-height: 45pt; */
+    letter-spacing: 4px !important;;
+    font-family: 'proxima-nova', Arial, Helvetica, sans-serif !important;;
+    font-size: 18px !important;; /* font-size: 25pt; */
+    line-height: 32px !important;; /* line-height: 45pt; */
+}
+.write-up p{
+    margin: 0 0 24px 0 !important;;
 }
 
 /* Scripture Header */
