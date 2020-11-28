@@ -70,6 +70,15 @@ body {
 .content-section-style-02 h2 { font-family: meno-banner-condensed, 'meno-banner-condensed', serif; font-size:48px !important; }
 .content-section-style-02 p { font-style: italic !important; font-weight:normal; color:#FFFFFF !important; }
 
+.write-up {
+    letter-spacing: 4px;
+    font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* font-size: 25pt; */
+    line-height: 26px;
+    /* line-height: 45pt; */
+}
+
 /* Scripture Header */
 .scripture-header { 
     font-family: meno-banner-condensed,'meno-banner-condensed', serif !important;
@@ -80,16 +89,6 @@ body {
 /**/
 .margin-fill {
     flex-grow: 1;
-}
-
-.write-up {
-    margin: 50px 0;
-    text-align: center;
-    letter-spacing: 4px;
-    white-space: pre-wrap;
-    font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 26px;
 }
 
 .calendar-row {
