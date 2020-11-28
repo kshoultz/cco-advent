@@ -6,8 +6,8 @@ if (today > 25 && today < 29) {
 }
 
 // TODO: Use this to test the days: 
-var day = document.getElementById('calendar-day-' + today);
-day.classList.add('calendar-today');
+var day = document.getElementById('cco-calendar-day-' + today);
+day.classList.add('cco-calendar-today');
 
 var keepGoing = true,
     fade = 0,
@@ -15,8 +15,8 @@ var keepGoing = true,
 
 do {
     // Add style:
-    if (document.getElementById('calendar-day-' + i)) {
-        document.getElementById('calendar-day-' + i).style.backgroundColor = '#' + colors[(colors.length - fade) - 1];
+    if (document.getElementById('cco-calendar-day-' + i)) {
+        document.getElementById('cco-calendar-day-' + i).style.backgroundColor = '#' + colors[(colors.length - fade) - 1] + ' !important';
     }
 
     fade = fade + 1;
