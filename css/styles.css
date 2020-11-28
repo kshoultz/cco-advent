@@ -215,7 +215,7 @@ body {
   margin: 1px !important;
 }
 .cco-calendar-day {
-  background-color: #f7dfd1 !important;
+  background-color: #f7dfd1;
   color: #000000 !important;
   width: 100px !important;
   height: 100px !important;
