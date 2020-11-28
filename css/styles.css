@@ -40,8 +40,8 @@ body {
 .content-section-style-00 h2,
 .content-section-style-00 h3, 
 .content-section-style-00 p  {
-    padding: 20px 0 !important;
-    margin: 10px 0 0 0 !important;
+    padding: 20px 0 !important; 
+    margin: 10px 0 0 0 !important; 
     background-color: #FFFFFF !important; 
 }
 .content-section-style-00 h3 { margin:0 !important; padding:0 !important; }
@@ -73,10 +73,8 @@ body {
 .write-up {
     letter-spacing: 4px;
     font-family: 'proxima-nova', Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    /* font-size: 25pt; */
-    line-height: 26px;
-    /* line-height: 45pt; */
+    font-size: 14px; /* font-size: 25pt; */
+    line-height: 26px; /* line-height: 45pt; */
 }
 
 /* Scripture Header */
