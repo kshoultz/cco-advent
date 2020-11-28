@@ -71,16 +71,17 @@ body {
 .content-section-style-02 p { font-style: italic !important; font-weight:normal; color:#FFFFFF !important; }
 
 .write-up {
-    letter-spacing: 4px !important;
+/*     letter-spacing: 4px !important; */
+    color: #4a3b47 !important;
     font-family: 'proxima-nova', Arial, Helvetica, sans-serif !important;
-    font-size: 18px !important; /* font-size: 25pt; */
+    font-size: 20px !important; /* font-size: 25pt; */
     line-height: 32px !important; /* line-height: 45pt; */
 }
 .write-up p {
     margin: 0 0 24px 0 !important;
-    max-width: 900px;
+    max-width: 800px;
 }
-
+    
 /* Scripture Header */
 .scripture-header { 
     font-family: meno-banner-condensed,'meno-banner-condensed', serif !important;
