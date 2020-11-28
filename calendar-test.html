@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/nao6xmx.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CCO Advent Calendar Test Harness</title>
+</head>
+
+<body>
+    <!-- Calendar: -->
+    <div class="calendar-row">
+        <div class="calendar-day calendar-word">HOPE</div>
+        <div id="calendar-day-29" class="calendar-day">29</div>
+        <div id="calendar-day-30" class="calendar-day">30</div>
+        <div id="calendar-day-1" class="calendar-day">1</div>
+        <div id="calendar-day-2" class="calendar-day">2</div>
+        <div id="calendar-day-3" class="calendar-day">3</div>
+        <div id="calendar-day-4" class="calendar-day">4</div>
+        <div id="calendar-day-5" class="calendar-day">5</div>
+    </div>
+    <div class="calendar-row">
+        <div class="calendar-day calendar-word">PEACE</div>
+        <div id="calendar-day-6" class="calendar-day">6</div>
+        <div id="calendar-day-7" class="calendar-day">7</div>
+        <div id="calendar-day-8" class="calendar-day">8</div>
+        <div id="calendar-day-9" class="calendar-day">9</div>
+        <div id="calendar-day-10" class="calendar-day">10</div>
+        <div id="calendar-day-11" class="calendar-day">11</div>
+        <div id="calendar-day-12" class="calendar-day">12</div>
+    </div>
+    <div class="calendar-row">
+        <div class="calendar-day calendar-word">JOY</div>
+        <div id="calendar-day-13" class="calendar-day">13</div>
+        <div id="calendar-day-14" class="calendar-day">14</div>
+        <div id="calendar-day-15" class="calendar-day">15</div>
+        <div id="calendar-day-16" class="calendar-day">16</div>
+        <div id="calendar-day-17" class="calendar-day">17</div>
+        <div id="calendar-day-18" class="calendar-day">18</div>
+        <div id="calendar-day-19" class="calendar-day">19</div>
+    </div>
+    <div class="calendar-row">
+        <div class="calendar-day calendar-word">LOVE</div>
+        <div id="calendar-day-20" class="calendar-day">20</div>
+        <div id="calendar-day-21" class="calendar-day">21</div>
+        <div id="calendar-day-22" class="calendar-day">22</div>
+        <div id="calendar-day-23" class="calendar-day">23</div>
+        <div id="calendar-day-24" class="calendar-day">24</div>
+        <div id="calendar-day-25" class="calendar-day">25</div>
+        <div id="calendar-day-26" class="calendar-day"></div>
+    </div>
+    <script>
+        var colors = ['f1ded1', 'f0dbc9', 'eed8c2', 'edd0b3', 'eccdab', 'e9c79c', 'e7c18e', 'e5bd86', 'e4ba80', 'e2b473', 'e0ad65', 'dfab5e', 'dda858'],
+            today = new Date().getDate();
+            
+        today = 25;
+        if (today > 25 && today < 29) {
+            today = 29;
+        }
+
+        // TODO: Use this to test the days: 
+        var day = document.getElementById('calendar-day-' + today);
+        day.classList.add('calendar-today');
+
+        var keepGoing = true,
+            fade = 0,
+            i = today - 1;
+
+        do {
+            // Add style:
+            if (document.getElementById('calendar-day-' + i)) {
+                document.getElementById('calendar-day-' + i).style.backgroundColor = '#' + colors[(colors.length - fade) - 1];
+            }
+
+            fade = fade + 1;
+
+            // Adjust count:
+            i = i - 1;
+            if (i <= 0 && today < 26) {
+                i = 30;
+            } else if (i === 26) {
+                keepGoing = false;
+            }
+        } while (keepGoing === true);
+    </script>
+</body>
+
+</html>
