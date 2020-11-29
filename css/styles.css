@@ -76,9 +76,11 @@ body {
   margin: 10px 0 0 0 !important;
   background-color: #ffffff !important;
 }
+.content-section-style-00 h1,
+.content-section-style-00 h2,
 .content-section-style-00 h3 {
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 0 20px !important;
 }
 
 /* Tan style */
@@ -114,7 +116,7 @@ body {
 .write-up {
   /*     letter-spacing: 4px !important; */
   margin: 0 0 40px 0 !important;
-  padding: 0 !important;
+  padding: 0 20px !important;
   text-align: center !important;
   color: #4a3b47 !important;
   font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
@@ -264,6 +266,13 @@ body {
 }
 #primary-menu a {
   letter-spacing: 5px !important;
-  padding-left: 32px !important;
-  padding-right: 32px !important;
+  padding-left: 28px !important;
+  padding-right: 28px !important;
+}
+
+.wrapper {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
