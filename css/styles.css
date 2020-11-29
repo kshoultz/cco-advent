@@ -247,3 +247,16 @@ body {
   background-color: #4a3b47 !important;
   color: #f7dfd1 !important;
 }
+
+.singular-content-wrap .entry-content,
+.singular-content-wrap .entry-summary {
+  margin-bottom: 0 !important;
+}
+
+.menu,
+.nav-menu,
+#primary-menu {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+}
