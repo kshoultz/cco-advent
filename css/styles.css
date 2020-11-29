@@ -203,13 +203,11 @@ body {
   line-height: 160px;
   position: absolute !important;
 }
-
 /* Calendar */
 .cco-calendar {
   margin: 50px 0;
   display: flex !important;
   flex-direction: column !important;
-  min-width: 800px;
 }
 .cco-calendar-week {
   display: flex !important;
@@ -217,16 +215,17 @@ body {
   flex-wrap: nowrap !important;
   justify-content: center !important;
   margin: 1px !important;
+  width:100%;
 }
 .cco-calendar-day {
   background-color: #f7dfd1;
   color: #000000 !important;
-  width: 100px !important;
-  height: 100px !important;
-  font-size: 64px !important;
+  width: 10vw !important;
+  height: 10vw !important;
+  font-size: 6.5vw !important;
   font-weight: 800 !important;
   text-align: center !important;
-  line-height: 100px !important;
+  line-height: 170% !important;
   margin-left: 1px !important;
   font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
 }
@@ -237,7 +236,8 @@ body {
 .cco-calendar-word {
   background-color: #000000 !important;
   color: #f7dfd1 !important;
-  font-size: 14px !important;
+  font-size: 1.5vw !important;
+  line-height:700% !important;
   font-weight: 800 !important;
   font-family: proxima-nova, "proxima-nova", Arial, Helvetica, sans-serif !important;
   letter-spacing: 4px !important;
