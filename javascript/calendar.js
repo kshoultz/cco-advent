@@ -8,6 +8,7 @@ if (today > 25 && today < 29) {
 
 // TODO: Use this to test the days: 
 var day = document.getElementById('cco-calendar-day-' + today);
+if (!day) { return; }
 day.classList.add('cco-calendar-today');
 
 var keepGoing = true,

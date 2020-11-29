@@ -62,7 +62,8 @@ body {
 }
 .content-section {
   margin: 10px 0 !important;
-  padding: 20px !important;
+  padding: 30px !important;
+  font-weight: normal !important;
 }
 
 /* Plain style */
@@ -97,15 +98,16 @@ body {
 .content-section-style-02 h3,
 .content-section-style-02 p {
   background-color: #4a3b47 !important;
-  color: #dec3b3 !important;
+  color: #ffffff !important;
+  padding-right: 10vw !important;
+  font-size: 16px !important;
+  letter-spacing: 5px !important;
 }
 .content-section-style-02 h2 {
-  font-family: meno-banner-condensed, "meno-banner-condensed", serif;
-  font-size: 48px !important;
+  margin-bottom: 30px !important;
 }
 .content-section-style-02 p {
-  font-style: italic !important;
-  font-weight: normal;
+  font-weight: normal !important;
   color: #ffffff !important;
 }
 
