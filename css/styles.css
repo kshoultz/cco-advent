@@ -215,7 +215,7 @@ body {
   flex-wrap: nowrap !important;
   justify-content: center !important;
   margin: 1px !important;
-  width:100%;
+  width: 100%;
 }
 .cco-calendar-day {
   background-color: #f7dfd1;
@@ -237,7 +237,7 @@ body {
   background-color: #000000 !important;
   color: #f7dfd1 !important;
   font-size: 1.5vw !important;
-  line-height:700% !important;
+  line-height: 700% !important;
   font-weight: 800 !important;
   font-family: proxima-nova, "proxima-nova", Arial, Helvetica, sans-serif !important;
   letter-spacing: 4px !important;
@@ -259,4 +259,9 @@ body {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: nowrap !important;
+}
+#primary-menu a {
+  letter-spacing: 5px !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
 }
