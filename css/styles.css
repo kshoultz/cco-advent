@@ -136,7 +136,7 @@ span {
 /* Post navigation: */
 .cco-post-nav-container {
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 0 20px 0 !important;
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
@@ -144,6 +144,7 @@ span {
 }
 .cco-post-navigation {
   width: 200px !important;
+  margin-top: 20px !important;
 }
 .cco-post-navigation ul {
   padding: 0 !important;
