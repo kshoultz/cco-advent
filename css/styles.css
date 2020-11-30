@@ -6,111 +6,93 @@ h1,
 h2,
 h3,
 span {
-  font-family: proxima-nova, "proxima-nova", sans-serif;
-  color: #4a3b47;
-  white-space: normal;
+  font-family: proxima-nova, "proxima-nova", sans-serif !important;
 }
-h1,
-h2,
-h3,
-p {
-  padding: 0;
-  margin: 0 !important;
-}
-h1 {
-  font-size: 24px !important;
-  margin-top: 18px !important;
-}
-h2 {
-  font-size: 20px !important;
-  margin-top: 12px !important;
-}
-h3 {
-  font-size: 16px !important;
-  margin-top: 6px !important;
-  font-weight: normal !important;
-}
+
 .emphasized {
   font-weight: 800 !important;
 }
 .italicized {
   font-style: italic !important;
 }
-p {
-  margin-top: 2px !important;
-  margin-bottom: 10px !important;
-  line-height: 200% !important;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #cccccc;
-}
+
 .main-layout {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 .body-container {
-  min-width: 1000px;
-  background-color: #ffffff;
-  border-left: solid 1px #4a3b47;
-  border-right: solid 1px #4a3b47;
-  border-bottom: none;
-  padding: 0;
-  margin: 0;
+  border: solid 1px #4a3b47;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
-.content-section {
-  margin: 10px 0 !important;
-  padding: 30px !important;
-  font-weight: normal !important;
+
+/*  */
+.cco-content {
+  margin-bottom: 40px !important;
 }
 
 /* Plain style */
-.content-section-style-00,
-.content-section-style-00 h1,
-.content-section-style-00 h2,
-.content-section-style-00 h3,
-.content-section-style-00 p {
-  padding: 20px !important;
-  margin: 10px 0 0 0 !important;
-  background-color: #ffffff !important;
-}
-.content-section-style-00 h1,
-.content-section-style-00 h2,
-.content-section-style-00 h3 {
+.cco-default h1,
+.cco-default h2,
+.cco-default h3,
+.cco-default h4,
+.cco-default p {
   margin: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding: 0 20px !important;
+  max-width: 800px !important;
+}
+.cco-default h1,
+.cco-default h3 {
+  text-transform: uppercase !important;
+  font-size: 18px !important;
+  font-weight: 800 !important;
+  margin-top: 10px !important;
+}
+.cco-default h2,
+.cco-default h4 {
+  font-size: 16px !important;
+  font-weight: normal !important;
+  margin-bottom: 10px !important;
+}
+.cco-default .cco-content {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+.cco-default p {
+  margin-bottom: 20px !important;
 }
 
-/* Tan style */
-.content-section-style-01,
-.content-section-style-01 h1,
-.content-section-style-01 h2,
-.content-section-style-01 h3,
-.content-section-style-01 p {
+/* 01 Tan style */
+.cco-style-01 .cco-content {
   background-color: #f2d7c7 !important;
   color: #4a3b47 !important;
 }
 
-/* Purple style */
-.content-section-style-02,
-.content-section-style-02 h1,
-.content-section-style-02 h2,
-.content-section-style-02 h3,
-.content-section-style-02 p {
+/* 02 Purple style */
+.cco-style-02 .cco-content {
   background-color: #4a3b47 !important;
   color: #ffffff !important;
-  padding-right: 10vw !important;
-  font-size: 16px !important;
   letter-spacing: 5px !important;
 }
-.content-section-style-02 h2 {
-  margin-bottom: 30px !important;
-}
-.content-section-style-02 p {
+
+.cco-style-02 p {
+  /* padding-right: 10vw !important; */
+  font-size: 16px !important;
   font-weight: normal !important;
-  color: #ffffff !important;
+}
+
+/* 03 Write up style. */
+.cco-style-03 .cco-content {
+  font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+  font-size: 20px !important; /* font-size: 25pt; */
+  color: #4a3b47 !important;
+}
+.cco-style-03 p {
+  text-align: center !important;
+  line-height: 32px !important; /* line-height: 45pt; */
 }
 
 .materials-list {
@@ -131,31 +113,11 @@ body {
   content: "- " !important;
 }
 
-.write-up {
-  /*     letter-spacing: 4px !important; */
-  margin: 0 0 40px 0 !important;
-  padding: 0 20px !important;
-  text-align: center !important;
-  color: #4a3b47 !important;
-  font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
-  font-size: 20px !important; /* font-size: 25pt; */
-  line-height: 32px !important; /* line-height: 45pt; */
-}
-.write-up p {
-  margin: 0 auto 24px auto !important;
-  max-width: 800px;
-}
-
 /* Scripture Header */
 .scripture-header {
   font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
   font-weight: 800 !important;
   font-size: 64px !important;
-}
-
-/**/
-.margin-fill {
-  flex-grow: 1;
 }
 
 .site-header-menu {
@@ -173,61 +135,80 @@ body {
 
 /* Post navigation: */
 .cco-post-nav-container {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
 }
 .cco-post-navigation {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  text-align: right;
+  width: 200px !important;
+}
+.cco-post-navigation ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  list-style-type: none !important;
+  text-align: right !important;
 }
 .cco-post-navigation li {
-  padding: 0;
-  margin: 0;
-  background-color: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: none !important;
+  white-space: nowrap !important;
 }
 .cco-post-navigation li a {
-  padding: 0;
-  margin: 0;
-  color: #211a20;
-  text-decoration: none;
-  line-height: 250%;
-  letter-spacing: 4px;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: #211a20 !important;
+  text-decoration: none !important;
+  line-height: 250% !important;
+  letter-spacing: 4px !important;
 }
 
+/* Date Graphic  */
+.cco-date {
+  position: relative !important;
+  width: 200px !important;
+  height: 140px !important;
+  padding-right: 20px !important;
+  padding-bottom: 20px !important;
+  letter-spacing: 0 !important;
+}
 .cco-date-layer-01 {
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 200px;
-  padding: 10px 0 0 0;
-  text-align: center;
-  font-family: meno-banner-condensed, "meno-banner-condensed", serif;
-  color: #f2d7c7;
-  font-size: 100px;
+  top: 0 !important;
+  left: 0 !important;
+  width: 200px !important;
+  height: 200px !important;
+  text-align: center !important;
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+  color: #f2d7c7 !important;
+  font-size: 100px !important;
+  font-weight: 800 !important;
   line-height: 50px !important;
   position: absolute !important;
+  letter-spacing: 0 !important;
 }
 .cco-date-layer-02 {
-  top: 20px;
-  left: 0;
-  width: 200px;
-  height: 200px;
-  text-align: center;
-  font-family: meno-banner-condensed, "meno-banner-condensed", serif;
-  font-size: 160px;
-  line-height: 160px;
+  top: 20px !important;
+  left: 0 !important;
+  width: 200px !important;
+  height: 200px !important;
+  text-align: center !important;
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+  color: #211a20 !important;
+  font-size: 180px !important;
+  font-weight: 800 !important;
+  line-height: 140px !important;
   position: absolute !important;
+  letter-spacing: -10px !important;
 }
+
 /* Calendar */
 .cco-calendar {
-  margin: 50px 0;
+  margin: 50px 0 !important;
   display: flex !important;
   flex-direction: column !important;
 }
@@ -253,7 +234,7 @@ body {
 }
 .cco-calendar-day a {
   color: black !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .cco-calendar-word {
   background-color: #000000 !important;
