@@ -72,7 +72,7 @@ body {
 .content-section-style-00 h2,
 .content-section-style-00 h3,
 .content-section-style-00 p {
-  padding: 20px 0 !important;
+  padding: 20px !important;
   margin: 10px 0 0 0 !important;
   background-color: #ffffff !important;
 }
@@ -111,6 +111,24 @@ body {
 .content-section-style-02 p {
   font-weight: normal !important;
   color: #ffffff !important;
+}
+
+.materials-list {
+  list-style-type: none !important;
+  margin: 10px 0 10px 20px !important;
+  padding: 0 !important;
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+  font-weight: 800 !important;
+  color: #4b3d48 !important;
+  font-size: 60px !important;
+  line-height: 60px !important;
+}
+.materials-list {
+  text-indent: -5px !important;
+  line-height: 60px !important;
+}
+.materials-list > li:before {
+  content: "- " !important;
 }
 
 .write-up {
@@ -266,13 +284,13 @@ body {
 }
 #primary-menu a {
   letter-spacing: 5px !important;
-  padding-left: 28px !important;
-  padding-right: 28px !important;
+  padding-left: 22px !important;
+  padding-right: 22px !important;
 }
 
 .wrapper {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
