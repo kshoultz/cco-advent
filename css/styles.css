@@ -32,6 +32,12 @@ span {
   margin-bottom: 40px !important;
 }
 
+.cco-max-width {
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* Plain style */
 .cco-default h1,
 .cco-default h2,
