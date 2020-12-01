@@ -46,8 +46,8 @@ span {
 }
 .cco-default h1,
 .cco-default h3 {
-  text-transform: uppercase !important;
-  font-size: 18px !important;
+  text-transform: uppercase;
+  font-size: 18px;
   font-weight: 800 !important;
   margin-top: 10px !important;
 }
@@ -55,19 +55,21 @@ span {
 .cco-default h4 {
   font-size: 16px !important;
   font-weight: normal !important;
-  margin-bottom: 10px !important;
 }
 .cco-default .cco-content {
+  margin-top: 20px !important;
   padding-top: 6px !important;
   padding-bottom: 6px !important;
 }
 .cco-default p {
   margin-bottom: 20px !important;
+  line-height: 28px !important;
+  letter-spacing: 2px !important;
 }
 
 /* 01 Tan style */
 .cco-style-01 .cco-content {
-  background-color: #f2d7c7 !important;
+  background-color: #dec3b3 !important;
   color: #4a3b47 !important;
 }
 
@@ -91,7 +93,7 @@ span {
   color: #4a3b47 !important;
 }
 .cco-style-03 p {
-  text-align: center !important;
+  text-align: left !important;
   line-height: 32px !important; /* line-height: 45pt; */
 }
 
@@ -115,9 +117,11 @@ span {
 
 /* Scripture Header */
 .scripture-header {
+  text-transform: none !important;
   font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
   font-weight: 800 !important;
-  font-size: 64px !important;
+  font-size: 80px !important;
+  color: #cb8840 !important;
 }
 
 .site-header-menu {
@@ -143,7 +147,7 @@ span {
   justify-content: space-between !important;
 }
 .cco-post-navigation {
-  width: 200px !important;
+  width: 300px !important;
   margin-top: 20px !important;
 }
 .cco-post-navigation ul {
@@ -163,7 +167,7 @@ span {
 .cco-post-navigation li a {
   padding: 0 !important;
   margin: 0 !important;
-  color: #211a20 !important;
+  color: #4a3b47 !important;
   text-decoration: none !important;
   line-height: 250% !important;
   letter-spacing: 4px !important;
@@ -199,7 +203,7 @@ span {
   height: 200px !important;
   text-align: center !important;
   font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
-  color: #211a20 !important;
+  color: #4a3b47 !important;
   font-size: 180px !important;
   font-weight: 800 !important;
   line-height: 140px !important;
