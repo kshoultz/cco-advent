@@ -97,6 +97,48 @@ span {
   line-height: 32px !important; /* line-height: 45pt; */
 }
 
+/* Golden Outline Style */
+.cco-style-04 h1 {
+  text-transform: none !important;
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+  font-weight: 800 !important;
+  font-size: 80px !important;
+  color: #cb8840 !important;
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+  line-height: 45px !important;
+}
+
+.cco-style-04 .cco-content {
+  margin-top: 0px !important;
+  padding: 20px !important;
+  border: solid 3px #cb8840 !important;
+}
+
+.cco-style-04 .cco-summary {
+  width: 225px !important;
+  text-align: right !important;
+  margin-right: 25px !important;
+}
+.cco-style-04 .cco-lists {
+  width: 225px !important;
+  margin-left: 25px !important;
+}
+.cco-style-04 .cco-lists h3 {
+  font-size: 14px !important;
+  line-height: 24px !important;
+  color: #4a3b47 !important;
+  padding: 0 !important;
+  margin: 20px 0 0 0 !important;
+}
+.cco-style-04 .cco-lists ul {
+  list-style-type: square !important;
+  padding: 0 20px !important;
+  margin: 0 !important;
+}
+.cco-style-04 .cco-lists li {
+}
+
 .materials-list {
   list-style-type: none !important;
   margin: 10px 0 10px 20px !important;
