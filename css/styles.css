@@ -16,6 +16,14 @@ span {
   font-style: italic !important;
 }
 
+.krs-flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  align-items: top !important;
+  justify-content: center !important;
+}
+
 .main-layout {
   display: flex;
   flex-direction: row;
@@ -219,6 +227,35 @@ span {
   text-decoration: none !important;
   line-height: 250% !important;
   letter-spacing: 4px !important;
+}
+
+.cco-navigation-learn-more,
+.cco-navigation-learn-more h1,
+.cco-navigation-learn-more a {
+  padding: 10px 0 !important;
+  width: 260px !important;
+  font-size: 18px !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+}
+
+.cco-navigation-learn-more {
+  padding: 0 25px !important;
+  margin: 0 auto !important;
+}
+
+.cco-navigation-learn-more h1 {
+  color: #4b3d48 !important;
+  border-bottom: solid 2px #000000 !important;
+}
+
+.cco-navigation-learn-more a {
+  display: block !important;
+  margin: 20px 0 !important;
+  background-color: #cb8840 !important;
+  text-decoration: none !important;
+  color: #ffffff !important;
 }
 
 /* Date Graphic  */
