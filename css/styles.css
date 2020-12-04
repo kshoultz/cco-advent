@@ -153,6 +153,23 @@ span {
 .cco-style-04 .cco-lists li {
 }
 
+/* 05 Black style. */
+.cco-style-05 .cco-content {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  letter-spacing: 4px;
+}
+.cco-style-05 h3,
+h4 {
+  font-weight: normal !important;
+}
+
+.cco-style-05 p {
+  text-align: left !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
 .materials-list {
   list-style-type: none !important;
   margin: 10px 0 10px 20px !important;
