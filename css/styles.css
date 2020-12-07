@@ -51,7 +51,9 @@ span {
 .cco-default h2,
 .cco-default h3,
 .cco-default h4,
-.cco-default p {
+.cco-default p,
+.cco-default ul,
+.cco-default ol {
   margin: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
