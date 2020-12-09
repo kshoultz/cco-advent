@@ -398,3 +398,37 @@ h4 {
 #featured-slider-section + .site-content > .wrapper {
   padding: 30px 30px;
 }
+
+.cco-hilighted-topics {
+  margin: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  background-color: #df9c40 !important;
+  padding: 10px !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.cco-hilighted-topics .cco-hilight {
+  color: #4a3b47 !important;
+  background-color: #f2d7c7 !important;
+  margin: 10px 20px !important;
+  padding: 20px 30px !important;
+  text-align: center !important;
+  letter-spacing: 4px !important;
+  font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+  font-size: 18px !important;
+  line-height: 26px !important;
+  white-space: nowrap !important;
+}
+.cco-hilighted-topics a {
+  padding: 10px 36px !important;
+  line-height: 0.9 !important;
+  text-decoration: none !important;
+  letter-spacing: normal !important;
+  font-size: 60px !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+}
