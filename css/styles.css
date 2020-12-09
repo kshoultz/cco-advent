@@ -66,6 +66,9 @@ span {
 .cco-default h2 {
   color: #4a3b47 !important;
   letter-spacing: 3px !important;
+  margin: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .cco-default h1,
 .cco-default h3 {
@@ -423,7 +426,7 @@ h4 {
   white-space: nowrap !important;
 }
 .cco-hilighted-topics a {
-  padding: 10px 36px !important;
+  padding: 10px 26px !important;
   line-height: 0.9 !important;
   text-decoration: none !important;
   letter-spacing: normal !important;
