@@ -466,6 +466,7 @@ h4 {
   white-space: nowrap !important;
 }
 .cco-hilighted-topics a {
+  cursor: pointer !important;
   padding: 10px 26px !important;
   line-height: 0.9 !important;
   text-decoration: none !important;
@@ -474,4 +475,7 @@ h4 {
   color: #ffffff !important;
   font-weight: 800 !important;
   font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+}
+.cco-hilighted-topics a:hover {
+  color: #4a3b47 !important;
 }
