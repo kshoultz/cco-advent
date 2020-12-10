@@ -178,10 +178,51 @@ h4 {
   font-weight: normal !important;
 }
 
-.cco-style-05 p {
+.cco-style-06 p {
   text-align: left !important;
   font-size: 16px !important;
   font-weight: normal !important;
+}
+
+/* 07 Black Style 2. (TODO: see if this is the same as black style 5) */
+.cco-default .cco-style-07 h1 {
+  margin-top: 0px !important;
+  color: #4a3b47 !important;
+  font-style: italic !important;
+}
+.cco-default .cco-style-07 h2 {
+  margin-top: -3px !important;
+  color: #4a3b47 !important;
+}
+.cco-style-07 .cco-content {
+  padding: 60px 20px 60px 160px !important;
+  background-color: #000000 !important;
+}
+.cco-style-07 .cco-lyrics-feature,
+.cco-style-07 .cco-lyrics-text {
+  display: block !important;
+  text-align: left !important;
+  color: #dec3b3 !important;
+  padding-top: 15px 5px 10px 30px !important;
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  letter-spacing: 1.5px !important;
+}
+.cco-style-07 .cco-lyrics-feature p {
+  display: block !important;
+  max-width: 600px !important;
+  line-height: 1.5 !important;
+  text-align: right !important;
+}
+.cco-style-07 .cco-lyrics-text p {
+  line-height: 1.5 !important;
+}
+.cco-style-07 .cco-lyrics-emphasized {
+  font-family: meno-banner-condensed, "meno-banner-condensed", serif !important;
+  font-size: 2.5em !important;
+  font-weight: 800 !important;
+  color: #cb8840 !important;
+  margin-bottom: 10px !important;
 }
 
 .materials-list {
