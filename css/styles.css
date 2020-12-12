@@ -485,3 +485,18 @@ h4 {
 .cco-hilighted-topics a:hover {
   color: #4a3b47 !important;
 }
+
+.nav-links .nav-previous,
+.nav-links .nav-next {
+  border: none !important;
+}
+.post-navigation .nav-links a .nav-title,
+.post-navigation .nav-links a .nav-subtitle {
+  color: #4a3b47 !important;
+  margin-bottom: 0 !important;
+  line-height: 24px !important;
+}
+.post-navigation .nav-links a:hover .nav-title,
+.post-navigation .nav-links a:hover .nav-subtitle {
+  color: #cb8840 !important;
+}
