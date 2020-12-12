@@ -299,6 +299,9 @@ h4 {
   line-height: 250% !important;
   letter-spacing: 4px !important;
 }
+.cco-post-navigation li a:hover {
+  color: #dec3b3 !important;
+}
 
 .cco-navigation-learn-more,
 .cco-navigation-learn-more h1,
@@ -428,6 +431,9 @@ h4 {
   letter-spacing: 5px !important;
   padding-left: 22px !important;
   padding-right: 22px !important;
+}
+#primary-menu a:hover {
+  color: #ffffff !important;
 }
 
 .wrapper {

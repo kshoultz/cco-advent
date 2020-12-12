@@ -42,7 +42,9 @@
                                 // Deactivate future links:
                                 future = today + 1;
                                 do {
-                                        document.getElementById('cco-calendar-day-link-' + future).removeAttribute("href");
+                                        if (document.getElementById('cco-calendar-day-link-' + future)) {
+                                                document.getElementById('cco-calendar-day-link-' + future).removeAttribute("href");
+					}
                                         future = future + 1;
                                 } while (future < 30);
                         }
